@@ -4,7 +4,7 @@
 title = ORION
 
 # (str) Package name
-package.name = OR6
+package.name = OR
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.novfensec
@@ -37,18 +37,17 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3.12.0,kivy==2.3.0,kivymd==1.2.0,pillow==10.3.0
+requirements = python3,kivy==2.1.0,kivymd==0.104.2,pillow==8.3.1
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/images/logo.png
-
+presplash.filename = %(source.dir)s/images/téléchargement (2).png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/images/logo.png
+icon.filename = %(source.dir)s/images/téléchargement (2).png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
@@ -81,7 +80,7 @@ fullscreen = 0
 # red, blue, green, black, white, gray, cyan, magenta, yellow, lightgray,
 # darkgray, grey, lightgrey, darkgrey, aqua, fuchsia, lime, maroon, navy,
 # olive, purple, silver, teal.
-android.presplash_color = lightgrey
+android.presplash_color = aqua
 
 # (string) Presplash animation using Lottie format.
 # see https://lottiefiles.com/ for examples and https://airbnb.design/lottie/
